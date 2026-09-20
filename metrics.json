@@ -1,0 +1,17 @@
+{
+  "project_name": "agentic-knowledge-triage",
+  "evaluation_date": "2026-09-20",
+  "total_questions_tested": 35,
+  "metrics": {
+    "hit_rate_at_k": 0.92,
+    "faithfulness": 0.89,
+    "answer_relevance": 0.91,
+    "average_latency_seconds": 1.42,
+    "total_token_cost_usd": 0.45
+  },
+  "test_environment": {
+    "llm_model": "gpt-4o-mini",
+    "embedding_model": "text-embedding-3-small",
+    "vector_store": "ChromaDB"
+  }
+}
